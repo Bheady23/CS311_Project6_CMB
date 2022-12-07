@@ -1,0 +1,169 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellarmine Financials</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/bellstyle.css">
+  </head>
+<body>
+    <div id="header">
+        <h3>Bellarmine Financials - Balance Sheet Calculator</h3>
+    </div>
+
+    <div id="container"> 
+        <div id="subheader">     
+        <h6  id="subheaderA">Assests</h6>
+        <h6  id="subheaderB">Liabilities</h6>
+        </div>
+        <div id="assets">
+            
+            <h7 id="ca">Current Assets</h7><br>
+
+            <input type="button" id="btn1" value="Add Current Assets"><br>
+
+            <form id="caInputs">
+                <label for="Cash" type="hidden">Cash:</label>
+                <input type="text" id="Cash" name="Cash" style="height: 20px">
+                <label for="Inventory">Inventory:</label>
+                <input type="text" id="Inventory" name="Inventory"  style="height: 20px;">
+                <label for="Supplies">Supplies:</label>
+                <input type="text" id="Supplies" name="Supplies"  style="height: 20px;">
+                <label for="TempInvest1">Temporary Investments:</label>
+                <input type="text" id="TempInvest1" name="TempInvest1"  style="height: 20px;">       
+            </form>
+
+            <form id="totalCA">
+                <label for="tca">Total Current Assets:</label>
+                <p id="outputCA"></p>
+
+            </form>
+        </div>
+        <div id="cliabilities">
+            <h7 id="cl">Current Liabilities</h7><br>
+
+            <input type="button" id="btn2" value="Add Current Liabilities"><br>
+               
+    
+            <form id="clInputs">
+                        
+                <label for="accPay">Accounts Payable:</label>
+                <input type="text" id="accPay" name="accPay" style="height: 20px;">
+                <label for="notesPay">Notes Payable:</label>
+                <input type="text" id="notesPay" name="notesPay" style="height: 20px;">
+                <label for="intPay">Intrest Payable:</label>
+                <input type="text" id="intPay" name="intPay" style="height: 20px;">
+                <label for="wages">Wages Payable:</label>
+                <input type="text" id="wages" name="wages" style="height: 20px;">
+                <label for="accExp">Accrued Expenses:</label>
+                <input type="text" id="accExp" name="accExp" style="height: 20px;">
+                        
+            </form>
+             
+            <form id="totalCL">
+                <label for="tcl">Total Current Liabilities:</label>
+                <p id="outputCL"></p>
+
+            </form>
+        </div>
+
+        <div id="iPE">
+            <h7 id="pe">Investment Property & Equipment</h7><br>
+
+            <input type="button" id="btn3" value="Add Investment Property & Equipment"><br>
+        
+
+            <form id="peInputs">
+                <label for="Land">Land:</label>
+                <input type="text" id="Land" name="Land" style="height: 20px;">
+                <label for="bI">Buildings and Improvements:</label>
+                <input type="text" id="bI" name="bI"  style="height: 20px;">
+                <label for="Equip">Equipment:</label>
+                <input type="text" id="Equip" name="Equip"  style="height: 20px;">
+                <label for="TempInvest2">Temporary Investments:</label>
+                <input type="text" id="TempInvest2" name="TempInvest2"  style="height: 20px;">       
+            </form>
+
+            <form id="totalPE">
+                <label for="tpe">Total Investment Property and Equipment:</label>
+                <p id="outputPE"></p>
+
+            </form>
+        </div>
+
+        <div id="lLiabilitie">
+
+            <h7 id="ltl">Long-Term Liabilities</h7><br>
+
+            <input type="button" id="btn4" value="Add Long-term Liabilities"><br>
+
+            <form id="ltlInputs">
+                <label for="notesp">Notes Payable:</label>
+                <input type="text" id="notesp" name="notesp" style="height: 20px;">
+                <label for="bondsp">Bonds Payable:</label>
+                <input type="text" id="bondsp" name="bonds"  style="height: 20px;">       
+            </form>
+
+            <form id="totalLTL">
+                <label for="tltl">Total Long Term Liabilities:</label>
+                <p id="outputLTL"></p>
+            </form>
+        </div>
+
+        <div id="int">
+
+            <h7 id="tang">Intangibles</h7><br>
+
+            <input type="button" id="btn5" value="Add Intangibles"><br>
+
+            <form id="tangInputs">
+                <label for="tName">Trade Name:</label>
+                <input type="text" id="tName" name="tName" style="height: 20px;">
+                <label for="gW">Good Will:</label>
+                <input type="text" id="gW" name="gW"  style="height: 20px;">       
+            </form>
+
+            <form id="totalTang">
+                <label for="tTang">Total Intangibles:</label>
+                <p id="outputTang"></p>
+            </form>
+
+        </div>
+
+        <div id="tposition">
+
+            <h2 id="tp">Total Position</h2>
+
+            <input type="button" id="btn6" value="Calculate Position">
+
+            <form id="totalAssets">
+                <p>Total Assets:</p>
+                <P id="taOP"></P>
+                
+            </form>
+
+            <form id="totalliabilities">
+                <p>Total Liabilities:</p>
+                <P id="tlOP"></P>
+                
+            </form>
+
+            <form id="totalposition">
+                <p>Total Position:</p>
+                <P id="tpOP"></P>
+                
+            </form>
+
+        </div>
+  
+    </div>
+
+    <div id="footer">
+        <h7>&copy; Bellarmine University 2022</h7>
+    </div>
+
+    <script src="js/bellfin.js"></script>
+
+</body>

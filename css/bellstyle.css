@@ -1,0 +1,304 @@
+body{
+  padding: 5px;  
+}
+
+#header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: maroon ;
+    color: aliceblue;
+    padding-left: 10px;
+}
+
+#container{
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;   
+    background-color: goldenrod;
+    
+}
+
+#subheader{
+    grid-column: 1 / span 2;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#subheaderA{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 50px;
+    padding-top: 13px;
+    color:aliceblue;
+    background-color: black;
+    font-weight: bold;
+    padding-left: 13px;
+}
+
+#subheaderB{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    height: 50px;
+    padding-top: 13px;
+    text-align: 20px;
+    color:aliceblue;
+    background-color: black;
+    font-weight: bold;
+    padding-left: 145px;
+}
+
+label{
+    font-weight: bold;
+    grid: 1 /2;
+    text-align:right;
+    padding-right: 2px;
+    margin-left: 200px;
+    height: 20px;
+}  
+
+input{
+    text-align: right;
+    
+}
+#assets{
+   
+    grid-column: 1 /2;
+    padding-bottom: 50px;
+      
+}
+
+#ca{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#btn1{
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 10px;
+} 
+
+#caInputs{
+   visibility: hidden;
+   padding-top: 10px;
+   display: grid;
+   grid-template-columns: auto 150px;
+   grid-template-rows: 20px 20px 20px 20px;
+   padding-right: 20px;
+
+}
+
+
+#totalCA{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: auto 100px;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+#cliabilities{
+    grid-column: 2 / 3;
+    padding-bottom: 50px;   
+}
+
+#cl{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#btn2{
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#clInputs{
+    visibility: hidden;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto 150px;
+    grid-template-rows: 20px 20px 20px 20px 20px;
+    padding-right: 20px;
+ 
+}
+
+#totalCL{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: auto 100px;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#iPE{
+    grid-column: 1/2;
+    padding-bottom: 50px;
+}
+
+#pe{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-left: 20px;
+}
+
+#btn3{
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#peInputs{
+    visibility: hidden;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto 150px;
+    grid-template-rows: 20px 20px 20px 20px;
+    padding-right: 20px;
+}
+
+#totalPE{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: auto 100px;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#lLiabilitie{
+    grid-column: 2 / 3;
+    padding-bottom: 50px; 
+}
+
+#ltl{
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#btn4{
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#ltlInputs{
+    visibility: hidden;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto 150px;
+    grid-template-rows: 20px 20px;
+    padding-right: 20px;
+}
+
+#totalLTL{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: auto 100px;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#int{
+    grid-column: 1 / 2;
+    padding-bottom: 50px;
+}
+
+#tang{
+    font-weight: bold;
+    padding-left: 20px;
+   
+}
+
+#btn5{
+    font-weight: bold;
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#tangInputs{
+    visibility: hidden;
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: auto 150px;
+    grid-template-rows: 20px 20px;
+    padding-right: 20px;
+
+}
+
+#totalTang{
+    visibility: hidden;
+    display: grid;
+    grid-template-columns: auto 100px;
+    text-decoration: underline;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#tposition{
+    padding-top: 10px;
+    padding-left: 20px;
+    grid-column: 2 / 3;
+    display: grid;
+    grid-template-rows: 48px auto auto auto auto;
+}
+
+#tp{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#btn6{
+    font-weight: bold;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+}
+
+#totalAssets{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 130px auto;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#totalliabilities{
+    display: grid;
+    grid-template-columns: 160px auto;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#totalposition{
+    display: grid;
+    grid-template-columns: 145px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer{
+    display: flex;
+    justify-content: flex-start;
+    background-color: maroon;
+    color: aliceblue;
+    padding-left: 10px;
+}
